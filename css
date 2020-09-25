@@ -4,3 +4,7 @@ li{
  a{
     text-decoration: none;
  }
+nav{
+  width: 100vw;
+  backgrounf-color: #D6EFFF;
+}
