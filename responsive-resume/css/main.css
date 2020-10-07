@@ -19,6 +19,25 @@ body {
     max-width:1600px;
     margin:0;
 }
+/* Just for the fallback layout */
+
+main {
+	max-width: :500px;
+	margin: 1rem 0;
+}
+
+@supports (display: grid) {
+	main{
+		max-width: 10000px;
+		margin: 0;
+	}
+article {
+	margin:0;
+}
+.work-list{
+	display:grid;
+	grid-template-columns: : repeat(auto-fit,minmax(300px,1fr));
+}
 
 h1 {
     font-size:4.65rem;
