@@ -43,7 +43,7 @@ body {
 .main-heading {
     position:absolute;
     width:100%;
-    background: url(https://picsum.photos/id/1014/6016/4000.jpg) no-repeat;
+    background: url(https://picsum.photos/id/1044/4032/2268.jpg) no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     clip-path: polygon(
@@ -129,7 +129,7 @@ body {
 @media (min-width:1200px) {
     
     body {
-        background-image: url(https://i.picsum.photos/id/1044/4032/2268.jpg);
+        background-image: url(https://picsum.photos/id/1044/4032/2268.jpg);
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -156,3 +156,4 @@ body {
     }
 }
 
+https://picsum.photos/id/1014/6016/4000.jpg
